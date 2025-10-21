@@ -2,4 +2,4 @@
 Chris A
 
 Lab 4 for COS285
-Authors: Christopher Brown, 
+Authors: Christopher Brown, Chris A
