@@ -1,3 +1,4 @@
+package COS285Lab4;
 import java.util.*;
 import java.io.*;
 
@@ -25,8 +26,8 @@ public class Lab4 {
         System.out.println("Breadth-First Traversal:\n" + tree.bfsPrint());
 
         //Check if the tree contains certain values
-        tree.contains(12);
-        tree.contains(3);
+        System.out.println(tree.contains(12));
+        System.out.println(tree.contains(3)); 
     }
 
     /**Create a List of Integers from a given filepath with data

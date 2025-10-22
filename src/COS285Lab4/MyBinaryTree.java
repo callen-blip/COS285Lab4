@@ -1,3 +1,4 @@
+package COS285Lab4;
 import java.util.*;
 
 /**Creates a MyBinaryTree object that stores unsorted nodes in a binary tree.
