@@ -1,5 +1,4 @@
-package lab4;
-
+package COS285Lab4;
 import java.util.*;
 import java.io.*;
 
@@ -23,6 +22,12 @@ public class Lab4 {
         // Add the data to the tree.
         tree.buildTree(data);
 
+        // Print the nodes in the order they are encountered (breadth-first search)
+        System.out.println("Breadth-First Traversal:\n" + tree.bfsPrint());
+
+        //Check if the tree contains certain values
+        System.out.println(tree.contains(12));
+        System.out.println(tree.contains(3)); 
     }
 
     /**Create a List of Integers from a given filepath with data
